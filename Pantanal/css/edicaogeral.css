@@ -1,0 +1,132 @@
+	@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+	
+	body{
+	
+		color: white;
+		font-family:'Josefin Sans', sans-serif;
+		font-weight:bold;
+		overflow-x:hidden;
+	}
+	
+	header{
+		
+		position:relative;
+		
+	}
+	
+	.titulo{
+		
+		position:absolute;
+		bottom:0;
+	}
+	
+	iframe{
+		
+		margin:15px;
+		border-color:red;
+		border-width:20px;
+	}
+	
+	header{
+		
+		background-color:#50c878;
+		height:auto;
+		
+		
+	}
+	
+	.cabecalho{
+		
+		margin-left:60%;
+		
+	}
+	
+	@media(min-width:501px){
+		.cabecalho{
+			
+			width:250px;
+		}
+		
+		
+		section {
+			display:none;
+		}
+		
+		article{
+		
+			background-color: #af3787;
+			width:84%;
+			float:rigth;
+			margin-left:auto;
+			height:55%;
+			border-radius:10px;
+	}
+		
+
+	}
+	
+
+	
+	
+	@media(max-width: 500px) {
+			
+		.cabecalho{
+			
+			width:150px;
+		}
+		
+
+			
+			nav{
+				display:none;
+			}
+		
+			article{
+		
+			background-color: #af3787;
+			width:100%;
+		}
+	
+	}
+	
+	.botao{
+	
+		:auto;
+		width:80px;
+	    transition: all 0.5s;
+	
+}
+
+	.botao:hover{
+		cursor: pointer;
+		transform: scale(1.2);
+	}
+	
+	
+	section{
+		
+		background-color:#8fbc8f;
+		width:100%;
+		text-align:center;
+		margin-top:5px;
+	}
+	nav{
+	
+		background-color:#8fbc8f;
+		width:15%;
+		text-align:center;
+		float:left;
+		height:55%;
+		border-radius:10px;
+		margin-top:17px;
+	
+	}
+	
+	
+	
+	footer{
+		width:100%;
+		background-color: #ff4500;
+		
+	
+	}
